@@ -1,28 +1,40 @@
-name: gwtest
-favicon: null
 layout_spectrum: 0.7697020873893052
-typography_spectrum: 0.7942876061424613
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
-  brandStrength: 0.09828611696138978
-  lightness: 0.24046569713391364
-  saturation: 0.5795671422965825
-  rhythmicContrast: 0.5207977318204939
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.5795671422965825
+  brandStrength: 1
+  lightness: 0.2404656971339136
+  brandColors:
+    - '#FFFFFF'
+    - '#2E3235'
+    - '#565B5E'
+    - '#727E7E'
+    - '#C2C0AA'
+  rhythmicContrast: 0.5207977318204939
+typography_spectrum: 0.7942876061424613
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: gwtest
