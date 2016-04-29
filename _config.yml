@@ -1,4 +1,4 @@
-layout_spectrum: 0.7697020873893052
+name: gwtest
 opengraph:
   image: null
   type: null
@@ -9,25 +9,25 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
   saturation: 0.5795671422965825
   brandStrength: 1
-  lightness: 0.2404656971339136
+  rhythmicContrast: 0.5207977318204939
   brandColors:
     - '#FFFFFF'
     - '#2E3235'
     - '#565B5E'
     - '#727E7E'
     - '#C2C0AA'
-  rhythmicContrast: 0.5207977318204939
-typography_spectrum: 0.7942876061424613
+  lightness: 0.2404656971339136
+typography_spectrum: 0.4050179
 cta:
   bucket: null
   version: null
@@ -37,4 +37,4 @@ analytics:
   google: null
   facebook: null
 favicon: null
-name: gwtest
+layout_spectrum: 0
